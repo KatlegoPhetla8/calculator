@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>
+            Afflatus Creation Calculator
+        </title>
+        <link href="style.css" rel="stylesheet" >
+    </header>
+
+    <body>
+
+
+        <div class="main-div">
+
+            <div class="header-div">
+                <h1>
+                    Afflatus Creation Calculator
+                </h1> 
+            </div>
+
+            <input class="display-div" id="the-display" type ="text">
+            </input>
+
+            <div class="the-buttons-div">
+
+                <div class="first-line-buttons">
+                    <button onclick="acClearFunc()">AC</button>
+                    <button class="" onclick="removeLastValue()">&#9003;</button>
+                    <button id="percentage-button">%</button>
+                    <button onclick="operatorClick('/')" id="divide-button">&#247</button>
+                </div>
+    
+                <div class="second-line-buttons">
+                    <button onclick="numClick(7)">7</button>
+                    <button onclick="numClick(8)">8</button>
+                    <button onclick="numClick(9)">9</button>
+                    <button onclick="operatorClick('×')" id="multiply-button" >&#215;</button>
+                </div>
+    
+                <div class="third-line-buttons">
+
+                    <button onclick="numClick(4)">4</button>
+                    <button onclick="numClick(5)">5</button>
+                    <button onclick="numClick(6)">6</button>
+                    <button onclick="operatorClick('-')" id="minus-button" >-</button>
+                </div>
+    
+                <div class="fourth-line-buttons">
+
+                    <button onclick="numClick(1)">1</button>
+                    <button onclick="numClick(2)">2</button>
+                    <button onclick="numClick(3)">3</button>
+                    <button onclick="operatorClick('+')"  id="add-button" >+</button>
+                </div>
+    
+                <div class="fifth-line-buttons">
+
+                    <button onclick="numClick(0)">0</button>
+                    <button onclick="numClick('.')">.</button>
+                    <button style="background-color:black; box-shadow:none;"></button>
+                    <button class="equal-button" onclick="equalButton()"><span>=</span></button>
+                </div>
+            </div>
+          
+            </div>
+
+            
+
+          
+           
+
+        <script src="script.js"></script>
+    </body>
+</html>

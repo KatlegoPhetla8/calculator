@@ -1,0 +1,121 @@
+h1{
+    padding-top:10px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:50px;
+    font-weight:bolder;
+    font-style:italic;
+    color:rgb(197, 194, 194);
+}
+
+.main-div{
+    background-color: black;
+    color:white;
+    text-align: center;
+    width:350px;
+    height:620px;
+    margin:auto;
+    margin-top:100px;
+    box-shadow: 8px 20px 30px rgba(0, 0, 0, 0.6)
+}
+
+.header-div{
+    height:30px;
+}
+
+.display-div{
+    font-size: 23px;
+    background-color:white;
+    color:black;
+    display:flex;
+    margin-right:25px;
+    margin-left:25px;
+    margin-top:20px;
+    justify-content: right;
+    align-items: right;
+    text-align:right;
+    height:100px;
+    box-shadow: 2px 2px 6px rgb(255, 255, 255);
+}
+
+
+
+
+/* .blinker{
+    font-size:40px;
+    animation: blinker 1.5s linear infinite;
+    display:flex;
+    align-items:right;
+
+}
+
+@keyframes blinker {
+    50%{
+        opacity:0;
+    }
+} */
+
+.the-buttons-div{
+    margin-top:20px;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    row-gap:30px;
+}
+
+.first-line-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.first-line-buttons :active,
+.second-line-buttons :active,
+.third-line-buttons :active,
+.fourth-line-buttons :active,
+.fifth-line-buttons :active{
+    color:black;
+    background-color:rgb(197, 108, 108);
+}
+
+.first-line-buttons button,
+.second-line-buttons button,
+.third-line-buttons button,
+.fourth-line-buttons button,
+.fifth-line-buttons button{
+    padding:20px 20px 20px 20px;
+    font-size:12px;
+    background-color:rgb(143, 39, 39);
+    color:white;
+    box-shadow: 1px 1px 1px rgba(121, 118, 118, 0.6);
+    text-align: center;
+}
+
+.second-line-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.third-line-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.fourth-line-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.fifth-line-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-left:25px;
+    margin-right:25px;
+}
+
